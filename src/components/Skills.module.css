@@ -1,0 +1,28 @@
+.label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #666;
+  margin: 0 0 6px 0;
+}
+
+.tagList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag {
+  background: #1a1a2e;
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+}
+
+.tagSoft {
+  background: #e94560;
+}

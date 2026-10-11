@@ -1,0 +1,51 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 14px 16px;
+  border-top: 2px solid #e94560;
+}
+
+.cardName {
+  font-weight: 700;
+  font-size: 0.92rem;
+  margin-bottom: 6px;
+}
+
+.cardDesc {
+  font-size: 0.83rem;
+  color: #555;
+  margin: 0 0 10px 0;
+  line-height: 1.5;
+}
+
+.techList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+
+.techTag {
+  background: #eee;
+  color: #333;
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  font-weight: 600;
+}
+
+.link {
+  display: inline-block;
+  font-size: 0.78rem;
+  color: #e94560;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
